@@ -29,7 +29,7 @@ fi
 cd "$LOCAL_PATH" || exit
 
 # Check if the push.sh file exists
-if [ ! -f "push.sh" ] then 
+if [ ! -f "push.sh" ]; then 
     echo "The push.sh file does not exist in $LOCAL_PATH"
     exit 1
 fi
