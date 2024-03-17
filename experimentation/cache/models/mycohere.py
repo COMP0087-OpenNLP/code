@@ -12,7 +12,7 @@ def get_embedding_cohere(list_of_text, model):
 
 class MyModelCohere():
   def __init__(self):
-     self.model_name = 'embed-english-v3.0'
+     self.model_name = 'cohere'
 
   def encode(self, sentences, batch_size=32, **kwargs):
       """
@@ -24,4 +24,4 @@ class MyModelCohere():
       Returns:
           `List[np.ndarray]` or `Listz[tensor]`: List of embeddings for the given sentences
       """
-      return get_embedding_cohere(sentences, self.model_name)
+      return get_embedding_cohere(sentences, 'embed-english-v3.0')

@@ -2,7 +2,7 @@ from sentence_transformers import SentenceTransformer
 
 class MyModelGist():
     def __init__(self):
-        self.model_name = "GIST-large-Embedding-v0"
+        self.model_name = "gist"
         self.gist_model = SentenceTransformer("avsolatorio/GIST-large-Embedding-v0", revision=None).cuda()
     
     def encode(self, sentences, **kwargs):

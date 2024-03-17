@@ -8,7 +8,7 @@ def get_embeddings_voyage(list_of_text, model):
 
 class MyModelVoyage():
   def __init__(self):
-    self.model_name = "voyage-2"
+    self.model_name = "voyage"
 
   def encode(self, sentences, batch_size=32, **kwargs):
       """
@@ -20,4 +20,4 @@ class MyModelVoyage():
       Returns:
           `List[np.ndarray]` or `List[tensor]`: List of embeddings for the given sentences
       """
-      return get_embeddings_voyage(sentences, self.model_name)
+      return get_embeddings_voyage(sentences, "voyage-2")
