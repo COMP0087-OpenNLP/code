@@ -16,7 +16,7 @@ if [ "$#" -ne 3 ]; then
     exit 1
 fi
 
-MODEL_NAM="$1"
+MODEL_NAME="$1"
 LOCAL_PATH="$2"
 REPO_URL="$3"
 
@@ -29,7 +29,7 @@ fi
 cd "$LOCAL_PATH" || exit
 
 # Check if the push.sh file exists
-if [ ! -f "push.sh"] then 
+if [ ! -f "push.sh" ] then 
     echo "The push.sh file does not exist in $LOCAL_PATH"
     exit 1
 fi
@@ -42,7 +42,6 @@ if [ ! -d ".git" ]; then
     echo "Creating a new git repository"
     git init
     git remote add origin "$REPO_URL"
-    git pull origin master
     echo "Git repository created"
 else
     echo "Git repository already exists"
