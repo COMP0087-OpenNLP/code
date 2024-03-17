@@ -1,0 +1,18 @@
+[submodule "experimentation/data/sentences"]
+	path = experimentation/data/sentences
+	url = https://github.com/COMP0087-OpenNLP/sentences
+[submodule "experimentation/data/data_llmrails"]
+	path = experimentation/data/data_llmrails
+	url = https://github.com/COMP0087-OpenNLP/data_llmrails
+[submodule "experimentation/data/data_voyage"]
+	path = experimentation/data/data_voyage
+	url = https://github.com/COMP0087-OpenNLP/data_voyage
+[submodule "experimentation/data/data_cohere"]
+	path = experimentation/data/data_cohere
+	url = https://github.com/COMP0087-OpenNLP/data_cohere
+[submodule "experimentation/data/data_angle"]
+	path = experimentation/data/data_angle
+	url = https://github.com/COMP0087-OpenNLP/data_angle
+[submodule "experimentation/data/data_gist"]
+	path = experimentation/data/data_gist
+	url = https://github.com/COMP0087-OpenNLP/data_gist
