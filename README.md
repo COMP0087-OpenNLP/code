@@ -19,21 +19,12 @@ git submodule update
 ```
 
 ### Adding a New Submodule
-If you need to add a new submodule to the repository, follow these steps
-
-1. Ensure you've created and uploaded the data to the new repository to be added
-2. Navigate to the local clone of the `code` repository
-3. Run the following code from terminal
-
+1. Create a new repo for your data
+2. Run the bash script `setup.sh`
 ```bash
-git submodule add <repository-URL> experimentation/data/<new_repo>
+bash setup.sh <MODEL_NAME> <LOCAL_PATH_TO_URL> <REPO_URL>
 ```
-4. Commit the changes and push
-```bash
-git add .
-git commit -m "Added new submodule: [Submodule name]
-git push
-```
+Example: `setup.sh Angle experimentation/data/data_angle https://github.com/COMP0087-OpenNLP/data_angle
 
 ### Updating submodule to latest commits
 If you've changed contents of a data repository, then run the following command in the `code` repository:
