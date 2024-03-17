@@ -1,9 +1,9 @@
 [submodule "experimentation/data/sentences"]
 	path = experimentation/data/sentences
 	url = https://github.com/COMP0087-OpenNLP/sentences
-[submodule "experimentation/data/data_llmrails"]
+[submodule "experimentation/data/llmrails"]
 	path = experimentation/data/llmrails
-	url = https://github.com/COMP0087-OpenNLP/data_llmrails
+	url = https://github.com/COMP0087-OpenNLP/llmrails
 [submodule "experimentation/data/data_voyage"]
 	path = experimentation/data/data_voyage
 	url = https://github.com/COMP0087-OpenNLP/data_voyage
