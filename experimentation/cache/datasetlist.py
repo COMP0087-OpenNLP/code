@@ -92,7 +92,8 @@ def get_embedding(dataset, sentence, model_name, text_column="text"):
 def download() -> None:
 
     for t in TASK_LIST:
-        if os.path.exists(f"../data/{t}/main"):
+        path = f"../data/sentences/{t}"
+        if os.path.exists(path):
             print(f"{t} already downloaded, skipping...")
             continue
 
@@ -113,7 +114,7 @@ def download() -> None:
         elif isinstance(task, AbsTaskSTS):
             dataset = dformats.sts(task)
 
-        dataset.save_to_disk(f"../data/{t}/main", max_shard_size="75MB")
+        dataset.save_to_disk(path, max_shard_size="75MB")
 
 def encode_wrapper(model, text: str, max_retries: int = 10, wait_time: int = 60):
     while max_retries > 0:
@@ -134,16 +135,18 @@ def cache_embeddings(model_name: str, model, batch_size: int = None):
     `model` can be anything that has an `encode` method
     """
     for task in TASK_LIST:
-        if not os.path.exists(f"../data/{task}/main"):
+        download_path = f"../data/sentences/{task}"
+        embedding_path = f"../data/{model_name}/{task}"
+        if not os.path.exists(download_path):
             print(f"Skipping {task} as it is not downloaded yet...")
             continue
-        if os.path.exists(f"../data/{task}/{model_name}"):
+        if os.path.exists(embedding_path):
             print(f"{task} already cached for {model_name}, skipping...")
             continue
         print(f"Caching {task}...")
 
 
-        dataset = datasets.load_from_disk(f"../data/{task}/main")
+        dataset = datasets.load_from_disk(download_path)
         print("Loaded dataset")
         
         embeddings = []
@@ -151,4 +154,4 @@ def cache_embeddings(model_name: str, model, batch_size: int = None):
             embeddings.extend(encode_wrapper(model, batch["text"]))
 
         dataset = datasets.Dataset.from_dict({"embeddings": embeddings})
-        dataset.save_to_disk(f"../data/{task}/{model_name}", max_shard_size="75MB")
+        dataset.save_to_disk(embedding_path, max_shard_size="75MB")
