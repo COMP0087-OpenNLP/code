@@ -5,14 +5,14 @@
 	path = experimentation/data/llmrails
 	url = https://github.com/COMP0087-OpenNLP/llmrails
 [submodule "experimentation/data/data_voyage"]
-	path = experimentation/data/data_voyage
+	path = experimentation/data/voyage
 	url = https://github.com/COMP0087-OpenNLP/data_voyage
 [submodule "experimentation/data/data_cohere"]
-	path = experimentation/data/data_cohere
+	path = experimentation/data/cohere
 	url = https://github.com/COMP0087-OpenNLP/data_cohere
 [submodule "experimentation/data/data_angle"]
-	path = experimentation/data/data_angle
+	path = experimentation/data/angle
 	url = https://github.com/COMP0087-OpenNLP/data_angle
 [submodule "experimentation/data/data_gist"]
-	path = experimentation/data/data_gist
+	path = experimentation/data/gist
 	url = https://github.com/COMP0087-OpenNLP/data_gist
