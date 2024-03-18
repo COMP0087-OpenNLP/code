@@ -16,3 +16,6 @@
 [submodule "experimentation/data/gist"]
 	path = experimentation/data/gist
 	url = https://github.com/COMP0087-OpenNLP/gist
+[submodule "experimentation/data/gte-large"]
+	path = experimentation/data/gte-large
+	url = https://github.com/COMP0087-OpenNLP/gte-large
