@@ -24,4 +24,4 @@ Otherwise, if the data is already present locally, this command will pull the la
 
 ### Adding A New Cached Model
 
-Add the url to the REPO to the `update_data.sh` file.
+Add the GitHub url to the `update_data.sh` file.
