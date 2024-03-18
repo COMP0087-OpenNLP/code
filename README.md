@@ -4,30 +4,24 @@ COMP0087: Statistical Natural Language Processing - OpenNLP
 
 ## Cloning the Repository
 
-To clone this repository including all its submodules, run the following command:
+To clone this repository run the following command:
 
 ```bash
-git clone --recurse-submodules https://github.com/COMP0087-OpenNLP/code
+git clone https://github.com/COMP0087-OpenNLP/code
 ```
-#### Updating Submodules
 
-If you've cloned the repository and need to update the submodules, use the following commands:
+#### Updating Data Locally
+
+Run the following command to update the data locally:
 
 ```bash
-git submodule init
-git submodule update
+bash update_data.sh
 ```
 
-### Adding a New Submodule
-1. Create a new repo for your data
-2. Run the bash script `setup.sh`
-```bash
-bash setup.sh <MODEL_NAME> <LOCAL_PATH_TO_URL> <REPO_URL>
-```
-Example: `setup.sh Angle experimentation/data/data_angle https://github.com/COMP0087-OpenNLP/data_angle
+If the data is not present locally this will clone the necassary repos.
 
-### Updating submodule to latest commits
-If you've changed contents of a data repository, then run the following command in the `code` repository:
-```bash
-git submodule update --remote
-```
+Otherwise, if the data is already present locally, this command will pull the latest version from each subrepo. Also, it will reduce the size of the respective `.git` files.
+
+### Adding A New Cached Model
+
+Add the url to the REPO to the `update_data.sh` file.
