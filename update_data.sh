@@ -11,6 +11,13 @@ repositories=(
     https://github.com/COMP0087-OpenNLP/gte-large
 )
 
+reduce_repo_size() {
+    echo "Reducing repository size..."
+    # Deletes the reflog (to save space)
+    git reflog expire --expire=now --all
+    git gc --aggressive --prune=now
+}
+
 # Function to clone or pull a repository
 clone_or_pull() {
     repo_url=$1
@@ -21,21 +28,21 @@ clone_or_pull() {
         cd "$folder_name"
         git checkout master
 
-        # Deletes the reflog (to save space)
-        git reflog expire --expire=now --all
-        git gc --aggressive --prune=now
+        reduce_repo_size
 
         # Update with latest
         git pull
 
-        # Deletes the reflog (to save space)
-        git reflog expire --expire=now --all
-        git gc --aggressive --prune=now
+        reduce_repo_size
 
         cd ..
     else
         echo "Cloning repository: $folder_name"
         git clone "$repo_url"
+
+        cd "$folder_name"
+        reduce_repo_size
+        cd ..
     fi
 }
 
