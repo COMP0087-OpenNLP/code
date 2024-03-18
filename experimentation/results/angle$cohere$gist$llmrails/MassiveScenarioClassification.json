@@ -1,0 +1,15 @@
+{
+  "dataset_revision": "7d571f92784cd94a019292a1f45445077d0ef634",
+  "mteb_dataset_name": "MassiveScenarioClassification",
+  "mteb_version": "1.1.2",
+  "test": {
+    "en": {
+      "accuracy": 0.7799596503026228,
+      "accuracy_stderr": 0.01410813639654845,
+      "f1": 0.7762705362273773,
+      "f1_stderr": 0.011978510091862632,
+      "main_score": 0.7799596503026228
+    },
+    "evaluation_time": 13.15
+  }
+}

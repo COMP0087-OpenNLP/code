@@ -3,7 +3,7 @@
   "mteb_dataset_name": "StackOverflowDupQuestions",
   "mteb_version": "1.1.2",
   "test": {
-    "evaluation_time": 4.11,
+    "evaluation_time": 3.94,
     "map": 0.5532269149706542,
     "mrr": 0.5628767984466514
   }

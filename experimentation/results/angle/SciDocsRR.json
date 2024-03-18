@@ -3,7 +3,7 @@
   "mteb_dataset_name": "SciDocsRR",
   "mteb_version": "1.1.2",
   "test": {
-    "evaluation_time": 5.17,
+    "evaluation_time": 4.82,
     "map": 0.8749080620485203,
     "mrr": 0.9619145378949301
   }

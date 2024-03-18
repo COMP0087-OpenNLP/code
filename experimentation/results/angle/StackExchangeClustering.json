@@ -3,7 +3,7 @@
   "mteb_dataset_name": "StackExchangeClustering",
   "mteb_version": "1.1.2",
   "test": {
-    "evaluation_time": 11.93,
+    "evaluation_time": 11.74,
     "v_measure": 0.670423207360209,
     "v_measure_std": 0.04802077877406908
   }

@@ -3,7 +3,7 @@
   "mteb_dataset_name": "TwentyNewsgroupsClustering",
   "mteb_version": "1.1.2",
   "test": {
-    "evaluation_time": 2.13,
+    "evaluation_time": 1.97,
     "v_measure": 0.5240239727617374,
     "v_measure_std": 0.017215807426318584
   }

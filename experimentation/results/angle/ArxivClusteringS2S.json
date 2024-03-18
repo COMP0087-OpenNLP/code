@@ -3,7 +3,7 @@
   "mteb_dataset_name": "ArxivClusteringS2S",
   "mteb_version": "1.1.2",
   "test": {
-    "evaluation_time": 26.79,
+    "evaluation_time": 27.04,
     "v_measure": 0.43039475028819896,
     "v_measure_std": 0.1424521230568864
   }

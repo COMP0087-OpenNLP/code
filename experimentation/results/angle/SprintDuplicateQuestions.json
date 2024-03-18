@@ -30,7 +30,7 @@
       "precision": 0.944,
       "recall": 0.944
     },
-    "evaluation_time": 7.08,
+    "evaluation_time": 6.16,
     "manhattan": {
       "accuracy": 0.9989009900990099,
       "accuracy_threshold": 16.257326126098633,

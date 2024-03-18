@@ -11,7 +11,7 @@
       "pearson": 0.8884383964815171,
       "spearman": 0.8961713197117621
     },
-    "evaluation_time": 0.12,
+    "evaluation_time": 0.15,
     "manhattan": {
       "pearson": 0.8885453448403307,
       "spearman": 0.8960189544892879

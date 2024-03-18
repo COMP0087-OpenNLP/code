@@ -1,0 +1,13 @@
+{
+  "dataset_revision": "d604517c81ca91fe16a244d1248fc021f9ecee7a",
+  "mteb_dataset_name": "TweetSentimentExtractionClassification",
+  "mteb_version": "1.1.2",
+  "test": {
+    "accuracy": 0.6206847764572723,
+    "accuracy_stderr": 0.025520992026632418,
+    "evaluation_time": 12.23,
+    "f1": 0.6218264154619069,
+    "f1_stderr": 0.02719901699331715,
+    "main_score": 0.6206847764572723
+  }
+}
