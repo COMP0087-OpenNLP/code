@@ -10,7 +10,7 @@ To clone this repository run the following command:
 git clone https://github.com/COMP0087-OpenNLP/code
 ```
 
-#### Updating Data Locally
+### Updating Data Locally
 
 Run the following command to update the data locally:
 
