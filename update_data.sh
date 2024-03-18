@@ -48,5 +48,5 @@ cd "$target_folder"
 
 # Clone or pull the repositories
 for repo in "${repositories[@]}"; do
-    clone_or_pull "$repo"
+    clone_or_pull "$repo" & 
 done
