@@ -2,18 +2,18 @@
 
 # List of data repositories
 repositories=(
-    https://github.com/COMP0087-OpenNLP/voyage
-    https://github.com/COMP0087-OpenNLP/cohere
     https://github.com/COMP0087-OpenNLP/sentences
-    https://github.com/COMP0087-OpenNLP/llmrails
-    https://github.com/COMP0087-OpenNLP/gist
     https://github.com/COMP0087-OpenNLP/angle
-    https://github.com/COMP0087-OpenNLP/gte-large
+    # https://github.com/COMP0087-OpenNLP/voyage
+    # https://github.com/COMP0087-OpenNLP/cohere
+    # https://github.com/COMP0087-OpenNLP/llmrails
+    # https://github.com/COMP0087-OpenNLP/gist
+    # https://github.com/COMP0087-OpenNLP/gte-large
 )
 
 reduce_repo_size() {
     echo "Reducing repository size..."
-    # Deletes the reflog (to save space)
+    # Ngl this does not work for me
     git reflog expire --expire=now --all
     git gc --prune=now
 }
@@ -28,12 +28,12 @@ clone_or_pull() {
         cd "$folder_name"
         git checkout master
 
-        reduce_repo_size
+        # reduce_repo_size
 
         # Update with latest
         git pull
 
-        reduce_repo_size
+        # reduce_repo_size
 
         cd ..
     else
@@ -41,7 +41,7 @@ clone_or_pull() {
         git clone "$repo_url"
 
         cd "$folder_name"
-        reduce_repo_size
+        # reduce_repo_size
         cd ..
     fi
 }
