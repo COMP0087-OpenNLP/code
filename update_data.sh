@@ -4,11 +4,11 @@
 repositories=(
     https://github.com/COMP0087-OpenNLP/sentences
     https://github.com/COMP0087-OpenNLP/angle
-    # https://github.com/COMP0087-OpenNLP/voyage
-    # https://github.com/COMP0087-OpenNLP/cohere
-    # https://github.com/COMP0087-OpenNLP/llmrails
-    # https://github.com/COMP0087-OpenNLP/gist
-    # https://github.com/COMP0087-OpenNLP/gte-large
+    https://github.com/COMP0087-OpenNLP/voyage
+    https://github.com/COMP0087-OpenNLP/cohere
+    https://github.com/COMP0087-OpenNLP/llmrails
+    https://github.com/COMP0087-OpenNLP/gist
+    https://github.com/COMP0087-OpenNLP/gte-large
 )
 
 reduce_repo_size() {
@@ -34,13 +34,15 @@ clone_or_pull() {
         git pull
 
         # reduce_repo_size
-
+        
+        git config core.fileMode false
         cd ..
     else
         echo "Cloning repository: $folder_name"
         git clone "$repo_url"
 
         cd "$folder_name"
+        git config core.fileMode false
         # reduce_repo_size
         cd ..
     fi
