@@ -1,3 +1,5 @@
 *.DS_Store
 *.pyc
 experimentation/data/*
+.venv
+.cache
