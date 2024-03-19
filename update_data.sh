@@ -15,7 +15,7 @@ reduce_repo_size() {
     echo "Reducing repository size..."
     # Deletes the reflog (to save space)
     git reflog expire --expire=now --all
-    git gc --aggressive --prune=now
+    git gc --prune=now
 }
 
 # Function to clone or pull a repository
