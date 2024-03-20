@@ -347,4 +347,4 @@ llmrails,STS,STS22,fr-pl,cosine_spearman,
 llmrails,STS,STS22,fr-pl,cosine_spearman,
 llmrails,STS,STSBenchmark,en,cosine_spearman,0.8776870861049149
 llmrails,Summarization,SummEval,,cosine_spearman,
-llmrails,STS,average,en,cosine_spearman,0.8338196017548561
+llmrails,STS,average,en,cosine_spearman,0.8338196017548564

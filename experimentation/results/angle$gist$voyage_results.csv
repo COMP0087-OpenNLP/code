@@ -347,4 +347,4 @@ angle$gist$voyage,STS,STS22,fr-pl,cosine_spearman,
 angle$gist$voyage,STS,STS22,fr-pl,cosine_spearman,
 angle$gist$voyage,STS,STSBenchmark,en,cosine_spearman,0.8915556845654371
 angle$gist$voyage,Summarization,SummEval,,cosine_spearman,
-angle$gist$voyage,STS,average,en,cosine_spearman,0.8494946456798745
+angle$gist$voyage,STS,average,en,cosine_spearman,0.8494946456798743

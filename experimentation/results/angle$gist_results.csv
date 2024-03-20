@@ -347,4 +347,4 @@ angle$gist,STS,STS22,fr-pl,cosine_spearman,
 angle$gist,STS,STS22,fr-pl,cosine_spearman,
 angle$gist,STS,STSBenchmark,en,cosine_spearman,0.8892242493430351
 angle$gist,Summarization,SummEval,,cosine_spearman,
-angle$gist,STS,average,en,cosine_spearman,0.8488491414321677
+angle$gist,STS,average,en,cosine_spearman,0.8488491414321679
