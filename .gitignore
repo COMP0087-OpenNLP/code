@@ -3,3 +3,5 @@
 experimentation/data/*
 .venv
 .cache
+experimentation/snlp_test.py
+experimentation/cache/temp/*

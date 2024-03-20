@@ -9,6 +9,8 @@ repositories=(
     https://github.com/COMP0087-OpenNLP/llmrails
     https://github.com/COMP0087-OpenNLP/gist
     https://github.com/COMP0087-OpenNLP/gte-large
+    https://github.com/COMP0087-OpenNLP/mixed-bread.git
+    https://github.com/COMP0087-OpenNLP/flag-embedding.git
 )
 
 reduce_repo_size() {
@@ -36,6 +38,10 @@ clone_or_pull() {
         # reduce_repo_size
         
         git config core.fileMode false
+
+        echo "Running git status"
+        git status
+
         cd ..
     else
         echo "Cloning repository: $folder_name"

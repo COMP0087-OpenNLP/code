@@ -41,6 +41,11 @@ def run_cohere():
     model = MyModelCohere()
     cache_embeddings(model.model_name, model, batch_size=4000) # 4000 arbitrary, but don't want to go too crazy either ngl
 
+def run_mixed_bread():
+    from models.mixedbread import MyModelMixedBread
+    model = MyModelMixedBread()
+    cache_embeddings(model.model_name, model, batch_size=64)
+
 RUN_MODELS = {
     "gist": run_gist,
     "voyage": run_voyage,
@@ -48,7 +53,8 @@ RUN_MODELS = {
     "flag-embedding": run_flag_embedding,
     "openai": run_openai,
     "angle": run_angle,
-    "cohere": run_cohere
+    "cohere": run_cohere,
+    "mixed-bread": run_mixed_bread
 }
 
 def run_for_model(model_name):
