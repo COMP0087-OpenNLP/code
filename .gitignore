@@ -2,6 +2,9 @@
 *.pyc
 experimentation/data/*
 .venv
+.venv_blaze
+.venv*
+pytrec_eval
 .cache
 experimentation/snlp_test.py
 experimentation/cache/temp/*
