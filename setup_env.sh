@@ -5,7 +5,7 @@ if [ "$#" -ne 1 ]; then
   exit 1
 fi
 
-python3.10 -m venv $1
+python3 -m venv $1
 source $1/bin/activate
 
 echo "Activated the environment: $1"
