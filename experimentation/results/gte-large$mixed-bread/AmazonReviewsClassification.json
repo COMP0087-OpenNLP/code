@@ -1,0 +1,15 @@
+{
+  "dataset_revision": "1399c76144fd37290681b995c656ef9b2e06e26d",
+  "mteb_dataset_name": "AmazonReviewsClassification",
+  "mteb_version": "1.2.0",
+  "test": {
+    "en": {
+      "accuracy": 0.51788,
+      "accuracy_stderr": 0.010547871823263688,
+      "f1": 0.5046806913536126,
+      "f1_stderr": 0.017182412188240886,
+      "main_score": 0.51788
+    },
+    "evaluation_time": 5.76
+  }
+}

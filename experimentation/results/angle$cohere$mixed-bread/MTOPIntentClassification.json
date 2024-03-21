@@ -1,0 +1,15 @@
+{
+  "dataset_revision": "ae001d0e6b1228650b7bd1c2c65fb50ad11a8aba",
+  "mteb_dataset_name": "MTOPIntentClassification",
+  "mteb_version": "1.2.0",
+  "test": {
+    "en": {
+      "accuracy": 0.6843365253077975,
+      "accuracy_stderr": 0.019379107306043936,
+      "f1": 0.5141885538630089,
+      "f1_stderr": 0.004840058906640557,
+      "main_score": 0.6843365253077975
+    },
+    "evaluation_time": 14.66
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "dataset_revision": "e7a26af6f3ae46b30dde8737f02c07b1505bcc73",
+  "mteb_dataset_name": "MedrxivClusteringP2P",
+  "mteb_version": "1.2.0",
+  "test": {
+    "evaluation_time": 5.74,
+    "main_score": 0.33066915853723494,
+    "v_measure": 0.33066915853723494,
+    "v_measure_std": 0.012395248305896235
+  }
+}
