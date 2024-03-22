@@ -1,0 +1,15 @@
+{
+  "dataset_revision": "d7c0de2777da35d6aae2200a62c6e0e5af397c4c",
+  "mteb_dataset_name": "ToxicConversationsClassification",
+  "mteb_version": "1.2.0",
+  "test": {
+    "accuracy": 0.725866,
+    "accuracy_stderr": 0.04418912449913438,
+    "ap": 0.1548754111684059,
+    "ap_stderr": 0.012101052138298573,
+    "evaluation_time": 31.32,
+    "f1": 0.5615730377961181,
+    "f1_stderr": 0.028256070416976618,
+    "main_score": 0.725866
+  }
+}

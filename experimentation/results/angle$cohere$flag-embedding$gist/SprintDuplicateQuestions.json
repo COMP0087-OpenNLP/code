@@ -1,0 +1,49 @@
+{
+  "dataset_revision": "d66bd1f72af766a5cc4b0ca5e00c162f89e8cc46",
+  "mteb_dataset_name": "SprintDuplicateQuestions",
+  "mteb_version": "1.2.0",
+  "test": {
+    "cos_sim": {
+      "accuracy": 0.9988613861386139,
+      "accuracy_threshold": 0.7818018126299758,
+      "ap": 0.970853428302863,
+      "f1": 0.9422980431510286,
+      "f1_threshold": 0.7795825590400138,
+      "precision": 0.945619335347432,
+      "recall": 0.939
+    },
+    "dot": {
+      "accuracy": 0.9988613861386139,
+      "accuracy_threshold": 0.781801812629976,
+      "ap": 0.970853428302863,
+      "f1": 0.9422980431510286,
+      "f1_threshold": 0.7795825590400142,
+      "precision": 0.945619335347432,
+      "recall": 0.939
+    },
+    "euclidean": {
+      "accuracy": 0.9988613861386139,
+      "accuracy_threshold": 0.6606030385026963,
+      "ap": 0.970853428302863,
+      "f1": 0.9422980431510286,
+      "f1_threshold": 0.6639537052768263,
+      "precision": 0.945619335347432,
+      "recall": 0.939
+    },
+    "evaluation_time": 47.98,
+    "manhattan": {
+      "accuracy": 0.9988514851485149,
+      "accuracy_threshold": 32.36290087479771,
+      "ap": 0.9704479594695095,
+      "f1": 0.942057942057942,
+      "f1_threshold": 32.38974255051675,
+      "precision": 0.9411177644710579,
+      "recall": 0.943
+    },
+    "max": {
+      "accuracy": 0.9988613861386139,
+      "ap": 0.970853428302863,
+      "f1": 0.9422980431510286
+    }
+  }
+}
