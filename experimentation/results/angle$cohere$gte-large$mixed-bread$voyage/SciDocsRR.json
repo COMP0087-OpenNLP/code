@@ -1,0 +1,10 @@
+{
+  "dataset_revision": "d3c5e1fc0b855ab6097bf1cda04dd73947d7caab",
+  "mteb_dataset_name": "SciDocsRR",
+  "mteb_version": "1.2.0",
+  "test": {
+    "evaluation_time": 64.0,
+    "map": 0.8767567728216836,
+    "mrr": 0.9644367433583119
+  }
+}
