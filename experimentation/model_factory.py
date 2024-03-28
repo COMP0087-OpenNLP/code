@@ -45,7 +45,6 @@ class LocallyCachedModel(AbstractModel):
 
         ds = datasets.concatenate_datasets([main, embeddings], axis=1)
         self.df = ds.to_pandas().drop_duplicates(subset=["text"]).set_index("text")
-        self.num_models  = 1
     
     def encode(self, sentences, batch_size=32, **kwargs):
         # As efficient as possible
@@ -61,7 +60,6 @@ class StackedModel(AbstractModel):
         super().__init__(model_name=f"{model1.mode_name}${model2.mode_name}", task_name=task_name)
         self.model_1 = model1
         self.model_2 = model2
-        self.num_models = model1.num_models  + model2.num_models 
   
     def encode(self, sentences, batch_size=32, **kwargs):
             emb1 = self.model_1.encode(sentences, batch_size)
@@ -73,10 +71,17 @@ def create_stacked_model(models, task_name):
     if len(models) == 1:
         return LocallyCachedModel(models[0], task_name)
     
-    stacked_model = StackedModel(create_stacked_model(models[0:1], task_name), create_stacked_model(models[1:], task_name), task_name)
+    # Recursive case: Divide the models list into two halves and create stacked models.
+    mid_point = len(models) // 2
+    model1 = create_stacked_model(models[:mid_point], task_name)
+    model2 = create_stacked_model(models[mid_point:], task_name)
+    stacked_model = StackedModel(model1, model2, task_name)
+    
+    # Save a reference to the original encode method
+    original_encode = stacked_model.encode
     
     def normalize_encode(sentences, batch_size=32, **kwargs):
-        embeddings = stacked_model.encode(sentences, batch_size, **kwargs)
+        embeddings = original_encode(sentences, batch_size, **kwargs)
         
         # normalize embeddings to unit length (L2 norm)
         embeddings = [e / np.linalg.norm(e) for e in embeddings]
