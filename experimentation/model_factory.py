@@ -73,13 +73,13 @@ def create_stacked_model(models, task_name):
     if len(models) == 1:
         return LocallyCachedModel(models[0], task_name)
     
-    stacked_model = stacked_model = StackedModel(create_stacked_model(models[0:1], task_name), create_stacked_model(models[1:], task_name), task_name)
+    stacked_model = StackedModel(create_stacked_model(models[0:1], task_name), create_stacked_model(models[1:], task_name), task_name)
     
     def normalize_encode(sentences, batch_size=32, **kwargs):
         embeddings = stacked_model.encode(sentences, batch_size, **kwargs)
-        # Normalize the final stacked embeddings by dividing by the number of models
-        num_models = stacked_model.num_models
-        embeddings = [e / num_models for e in embeddings]
+        
+        # normalize embeddings to unit length (L2 norm)
+        embeddings = [e / np.linalg.norm(e) for e in embeddings]
         return embeddings
     
     stacked_model.encode = normalize_encode
