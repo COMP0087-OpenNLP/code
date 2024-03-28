@@ -1,0 +1,49 @@
+{
+  "dataset_revision": "70970daeab8776df92f5ea462b6173c0b46fd2d1",
+  "mteb_dataset_name": "TwitterSemEval2015",
+  "mteb_version": "1.2.0",
+  "test": {
+    "cos_sim": {
+      "accuracy": 0.87494784526435,
+      "accuracy_threshold": 0.8299807729315095,
+      "ap": 0.7870988856547896,
+      "f1": 0.72,
+      "f1_threshold": 0.7974580794242498,
+      "precision": 0.6899637243047159,
+      "recall": 0.7527704485488127
+    },
+    "dot": {
+      "accuracy": 0.87494784526435,
+      "accuracy_threshold": 0.8299807729315095,
+      "ap": 0.7870988856547896,
+      "f1": 0.72,
+      "f1_threshold": 0.7974580794242496,
+      "precision": 0.6899637243047159,
+      "recall": 0.7527704485488127
+    },
+    "euclidean": {
+      "accuracy": 0.87494784526435,
+      "accuracy_threshold": 0.5831281626804217,
+      "ap": 0.7870988856547896,
+      "f1": 0.72,
+      "f1_threshold": 0.6364619711477755,
+      "precision": 0.6899637243047159,
+      "recall": 0.7527704485488127
+    },
+    "evaluation_time": 27.63,
+    "manhattan": {
+      "accuracy": 0.8754246885617214,
+      "accuracy_threshold": 32.97802271580126,
+      "ap": 0.7868968132374534,
+      "f1": 0.7198599299649825,
+      "f1_threshold": 35.26410297983027,
+      "precision": 0.6842605801236329,
+      "recall": 0.7593667546174142
+    },
+    "max": {
+      "accuracy": 0.8754246885617214,
+      "ap": 0.7870988856547896,
+      "f1": 0.72
+    }
+  }
+}
