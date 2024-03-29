@@ -1,6 +1,7 @@
 from abc import ABC, abstractmethod
 import datasets
 import numpy as np
+import time
 
 BASIC_MODELS = [
     "angle",
@@ -16,7 +17,7 @@ BASIC_MODELS = [
 class AbstractModel(ABC):
     
     def __init__(self, model_name: str, task_name: str): # The task name is needed for caching
-        self.mode_name = model_name
+        self.model_name = model_name
         self.task_name = task_name
 
     @abstractmethod
@@ -66,6 +67,19 @@ class StackedModel(AbstractModel):
             emb2 = self.model_2.encode(sentences, batch_size)
             concatenation = np.concatenate((emb1, emb2), axis=1)
             return list(concatenation)
+
+class PCAModel(AbstractModel):
+    def __init__(self, model_name: str, task_name: str):
+        super().__init__(model_name, task_name)
+        main: datasets.Dataset = datasets.load_from_disk(f"data_pca/sentences/{self.task_name}")
+        embeddings: datasets.Dataset = datasets.load_from_disk(f"data_pca/{model_name}/{self.task_name}")
+        
+        ds = datasets.concatenate_datasets([main, embeddings], axis=1)
+        self.df = ds.to_pandas().drop_duplicates(subset=["text"]).set_index("text")
+
+    def encode(self, sentences, batch_size=32, **kwargs):
+        embeddings = self.df.loc[sentences]["embeddings"].values
+        return embeddings
   
 def create_stacked_model(models, task_name):
     if len(models) == 1:
@@ -91,8 +105,12 @@ def create_stacked_model(models, task_name):
     return stacked_model
 
 def model_factory(model_name, task_name):
+    print(f"Creating model {model_name} for task {task_name}")
     if model_name in BASIC_MODELS:
         return LocallyCachedModel(model_name, task_name)
+    elif "$" in model_name and "-pca" in model_name:
+        model_name = model_name.replace("-pca", "")
+        return PCAModel(model_name, task_name)
     elif "$" in model_name:
         models_names = model_name.split("$")
         return create_stacked_model(models_names, task_name)
