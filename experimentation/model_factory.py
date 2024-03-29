@@ -79,7 +79,7 @@ class PCAModel(AbstractModel):
 
     def encode(self, sentences, batch_size=32, **kwargs):
         embeddings = self.df.loc[sentences]["embeddings"].values
-        return embeddings
+        return np.vstack(embeddings)
   
 def create_stacked_model(models, task_name):
     if len(models) == 1:
