@@ -102,6 +102,8 @@ TASK_LIST = (
     + TASK_LIST_STS
 )
 
+np.random.shuffle(TASK_LIST)
+
 def run_on_tasks(model_name):
     from mteb import MTEB # Import MTEB here to avoid concurrency warning
     import logging
