@@ -1,6 +1,8 @@
 from abc import ABC, abstractmethod
 import datasets
 import numpy as np
+import time
+import pickle as pk
 
 BASIC_MODELS = [
     "angle",
@@ -16,7 +18,7 @@ BASIC_MODELS = [
 class AbstractModel(ABC):
     
     def __init__(self, model_name: str, task_name: str): # The task name is needed for caching
-        self.mode_name = model_name
+        self.model_name = model_name
         self.task_name = task_name
 
     @abstractmethod
@@ -57,7 +59,7 @@ class LocallyCachedModel(AbstractModel):
 
 class StackedModel(AbstractModel):
     def __init__(self, model1: AbstractModel, model2: AbstractModel, task_name: str):
-        super().__init__(model_name=f"{model1.mode_name}${model2.mode_name}", task_name=task_name)
+        super().__init__(model_name=f"{model1.model_name}${model2.model_name}", task_name=task_name)
         self.model_1 = model1
         self.model_2 = model2
   
@@ -66,6 +68,21 @@ class StackedModel(AbstractModel):
             emb2 = self.model_2.encode(sentences, batch_size)
             concatenation = np.concatenate((emb1, emb2), axis=1)
             return list(concatenation)
+
+class PCAModel(AbstractModel):
+    def __init__(self, model_name: str, task_name: str, ndims : int):
+        super().__init__(model_name, task_name)
+        self.ndims = ndims
+        if "$" in model_name:
+            self.model = create_stacked_model(model_name.split("$"), task_name)
+        else:
+            self.model = LocallyCachedModel(model_name, task_name)
+
+    def encode(self, sentences, batch_size=32, **kwargs):
+        embeddings = self.model.encode(sentences, batch_size)
+        pca = pk.load(open(f"pca/{self.ndims}/{self.model_name}.pkl", "rb"))
+        pca_embs = pca.transform(embeddings)
+        return pca_embs
   
 def create_stacked_model(models, task_name):
     if len(models) == 1:
@@ -90,8 +107,12 @@ def create_stacked_model(models, task_name):
     stacked_model.encode = normalize_encode
     return stacked_model
 
-def model_factory(model_name, task_name):
-    if model_name in BASIC_MODELS:
+def model_factory(model_name, task_name, ndims=1024):
+    print(f"Creating model {model_name} for task {task_name}")
+    if "-pca" in model_name:
+        model_name = model_name.replace("-pca", "")
+        return PCAModel(model_name, task_name, ndims)
+    elif model_name in BASIC_MODELS:
         return LocallyCachedModel(model_name, task_name)
     elif "$" in model_name:
         models_names = model_name.split("$")
