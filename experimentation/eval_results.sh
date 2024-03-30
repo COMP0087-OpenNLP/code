@@ -1,4 +1,4 @@
-result_dir=damien_temp_logs
+result_dir=eval_logs
 rm -rf $result_dir
 mkdir -p $result_dir
 jupyter nbconvert --to script snlp_test.ipynb
