@@ -8,3 +8,5 @@ pytrec_eval
 .cache
 experimentation/snlp_test.py
 experimentation/cache/temp/*
+experimentation/logs_pca/*
+experimentation/data_pca/*
