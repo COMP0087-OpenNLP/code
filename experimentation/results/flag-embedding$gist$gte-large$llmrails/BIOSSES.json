@@ -1,0 +1,20 @@
+{
+  "dataset_revision": "d3fb88f8f02e40887cd149695127462bbcf29b4a",
+  "mteb_dataset_name": "BIOSSES",
+  "mteb_version": "1.1.2",
+  "test": {
+    "cos_sim": {
+      "pearson": 0.8931469694313521,
+      "spearman": 0.8764416570647021
+    },
+    "euclidean": {
+      "pearson": 0.871099606443452,
+      "spearman": 0.8764416570647021
+    },
+    "evaluation_time": 0.07,
+    "manhattan": {
+      "pearson": 0.8714724944009322,
+      "spearman": 0.877260952841346
+    }
+  }
+}
