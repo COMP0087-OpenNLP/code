@@ -5,18 +5,18 @@
   "test": {
     "en": {
       "cos_sim": {
-        "pearson": 0.6913164377590482,
-        "spearman": 0.688309790725987
+        "pearson": 0.6890157300010498,
+        "spearman": 0.6939547562687436
       },
       "euclidean": {
-        "pearson": 0.7087315148672035,
-        "spearman": 0.6870474865799641
+        "pearson": 0.7076151772404782,
+        "spearman": 0.6941036935084096
       },
       "manhattan": {
-        "pearson": 0.7133247168515499,
-        "spearman": 0.6886174315816909
+        "pearson": 0.7043111326658253,
+        "spearman": 0.6838229546479571
       }
     },
-    "evaluation_time": 0.02
+    "evaluation_time": 0.09
   }
 }
