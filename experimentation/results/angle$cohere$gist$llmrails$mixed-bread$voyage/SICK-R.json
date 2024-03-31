@@ -1,0 +1,20 @@
+{
+  "dataset_revision": "a6ea5a8cab320b040a23452cc28066d9beae2cee",
+  "mteb_dataset_name": "SICK-R",
+  "mteb_version": "1.2.0",
+  "test": {
+    "cos_sim": {
+      "pearson": 0.8746155309866263,
+      "spearman": 0.8300690345978476
+    },
+    "euclidean": {
+      "pearson": 0.8473802741032807,
+      "spearman": 0.8300690345978476
+    },
+    "evaluation_time": 4.01,
+    "manhattan": {
+      "pearson": 0.84874838442507,
+      "spearman": 0.8299623104338373
+    }
+  }
+}
