@@ -110,7 +110,7 @@ def run_on_tasks(model_name):
     logger = logging.getLogger("main")
 
     print(f"Evaluating the model {model_name}...")
-    for task in TASK_LIST_STS:
+    for task in TASK_LIST:
         if os.path.exists(f"results/{model_name}/{task}.json"):
             print(f"Skipping {task} as it already exists")
             continue
