@@ -1,0 +1,713 @@
+Starting evaluation for angle
+Evaluating angle on STS15
+Evaluating angle on ArxivClusteringS2S
+Evaluating angle on ArguAna
+Evaluating angle on SciFact
+Evaluating angle on STSBenchmark
+Evaluating angle on Banking77Classification
+Evaluating angle on STS22
+Evaluating angle on STS17
+Evaluating angle on AmazonCounterfactualClassification
+Evaluating angle on SICK-R
+Evaluating angle on TwitterSemEval2015
+Evaluating angle on STS16
+Evaluating angle on STS12
+Evaluating angle on STS14
+Evaluating angle on EmotionClassification
+Evaluating angle on AskUbuntuDupQuestions
+Evaluating angle on RedditClustering
+Evaluating angle on STS13
+Converting results to csv for angle
+Finished evaluating angle for all tasks
+
+
+Starting evaluation for cohere
+Evaluating cohere on STS15
+Evaluating cohere on ArxivClusteringS2S
+Evaluating cohere on ArguAna
+Evaluating cohere on SciFact
+Evaluating cohere on STSBenchmark
+Evaluating cohere on Banking77Classification
+Evaluating cohere on STS22
+Evaluating cohere on STS17
+Evaluating cohere on AmazonCounterfactualClassification
+Evaluating cohere on SICK-R
+Evaluating cohere on TwitterSemEval2015
+Evaluating cohere on STS16
+Evaluating cohere on STS12
+Evaluating cohere on STS14
+Evaluating cohere on EmotionClassification
+Evaluating cohere on AskUbuntuDupQuestions
+Evaluating cohere on RedditClustering
+Evaluating cohere on STS13
+Converting results to csv for cohere
+Finished evaluating cohere for all tasks
+
+
+Starting evaluation for gist
+Evaluating gist on STS15
+Evaluating gist on ArxivClusteringS2S
+Evaluating gist on ArguAna
+Evaluating gist on SciFact
+Evaluating gist on STSBenchmark
+Evaluating gist on Banking77Classification
+Evaluating gist on STS22
+Evaluating gist on STS17
+Evaluating gist on AmazonCounterfactualClassification
+Evaluating gist on SICK-R
+Evaluating gist on TwitterSemEval2015
+Evaluating gist on STS16
+Evaluating gist on STS12
+Evaluating gist on STS14
+Evaluating gist on EmotionClassification
+Evaluating gist on AskUbuntuDupQuestions
+Evaluating gist on RedditClustering
+Evaluating gist on STS13
+Converting results to csv for gist
+Finished evaluating gist for all tasks
+
+
+Starting evaluation for llmrails
+Evaluating llmrails on STS15
+Evaluating llmrails on ArxivClusteringS2S
+Evaluating llmrails on ArguAna
+Evaluating llmrails on SciFact
+Evaluating llmrails on STSBenchmark
+Evaluating llmrails on Banking77Classification
+Evaluating llmrails on STS22
+Evaluating llmrails on STS17
+Evaluating llmrails on AmazonCounterfactualClassification
+Evaluating llmrails on SICK-R
+Evaluating llmrails on TwitterSemEval2015
+Evaluating llmrails on STS16
+Evaluating llmrails on STS12
+Evaluating llmrails on STS14
+Evaluating llmrails on EmotionClassification
+Evaluating llmrails on AskUbuntuDupQuestions
+Evaluating llmrails on RedditClustering
+Evaluating llmrails on STS13
+Converting results to csv for llmrails
+Finished evaluating llmrails for all tasks
+
+
+Starting evaluation for voyage
+Evaluating voyage on STS15
+Evaluating voyage on ArxivClusteringS2S
+Evaluating voyage on ArguAna
+Evaluating voyage on SciFact
+Evaluating voyage on STSBenchmark
+Evaluating voyage on Banking77Classification
+Evaluating voyage on STS22
+Evaluating voyage on STS17
+Evaluating voyage on AmazonCounterfactualClassification
+Evaluating voyage on SICK-R
+Evaluating voyage on TwitterSemEval2015
+Evaluating voyage on STS16
+Evaluating voyage on STS12
+Evaluating voyage on STS14
+Evaluating voyage on EmotionClassification
+Evaluating voyage on AskUbuntuDupQuestions
+Evaluating voyage on RedditClustering
+Evaluating voyage on STS13
+Converting results to csv for voyage
+Finished evaluating voyage for all tasks
+
+
+Starting evaluation for angle$cohere
+Evaluating angle$cohere on STS15
+Evaluating angle$cohere on ArxivClusteringS2S
+Evaluating angle$cohere on ArguAna
+Evaluating angle$cohere on SciFact
+Evaluating angle$cohere on STSBenchmark
+Evaluating angle$cohere on Banking77Classification
+Evaluating angle$cohere on STS22
+Evaluating angle$cohere on STS17
+Evaluating angle$cohere on AmazonCounterfactualClassification
+Evaluating angle$cohere on SICK-R
+Evaluating angle$cohere on TwitterSemEval2015
+Evaluating angle$cohere on STS16
+Evaluating angle$cohere on STS12
+Evaluating angle$cohere on STS14
+Evaluating angle$cohere on EmotionClassification
+Evaluating angle$cohere on AskUbuntuDupQuestions
+Evaluating angle$cohere on RedditClustering
+Evaluating angle$cohere on STS13
+Converting results to csv for angle$cohere
+Finished evaluating angle$cohere for all tasks
+
+
+Starting evaluation for angle$gist
+Evaluating angle$gist on STS15
+Evaluating angle$gist on ArxivClusteringS2S
+Evaluating angle$gist on ArguAna
+Evaluating angle$gist on SciFact
+Evaluating angle$gist on STSBenchmark
+Evaluating angle$gist on Banking77Classification
+Evaluating angle$gist on STS22
+Evaluating angle$gist on STS17
+Evaluating angle$gist on AmazonCounterfactualClassification
+Evaluating angle$gist on SICK-R
+Evaluating angle$gist on TwitterSemEval2015
+Evaluating angle$gist on STS16
+Evaluating angle$gist on STS12
+Evaluating angle$gist on STS14
+Evaluating angle$gist on EmotionClassification
+Evaluating angle$gist on AskUbuntuDupQuestions
+Evaluating angle$gist on RedditClustering
+Evaluating angle$gist on STS13
+Converting results to csv for angle$gist
+Finished evaluating angle$gist for all tasks
+
+
+Starting evaluation for angle$llmrails
+Evaluating angle$llmrails on STS15
+Evaluating angle$llmrails on ArxivClusteringS2S
+Evaluating angle$llmrails on ArguAna
+Evaluating angle$llmrails on SciFact
+Evaluating angle$llmrails on STSBenchmark
+Evaluating angle$llmrails on Banking77Classification
+Evaluating angle$llmrails on STS22
+Evaluating angle$llmrails on STS17
+Evaluating angle$llmrails on AmazonCounterfactualClassification
+Evaluating angle$llmrails on SICK-R
+Evaluating angle$llmrails on TwitterSemEval2015
+Evaluating angle$llmrails on STS16
+Evaluating angle$llmrails on STS12
+Evaluating angle$llmrails on STS14
+Evaluating angle$llmrails on EmotionClassification
+Evaluating angle$llmrails on AskUbuntuDupQuestions
+Evaluating angle$llmrails on RedditClustering
+Evaluating angle$llmrails on STS13
+Converting results to csv for angle$llmrails
+Finished evaluating angle$llmrails for all tasks
+
+
+Starting evaluation for angle$voyage
+Evaluating angle$voyage on STS15
+Evaluating angle$voyage on ArxivClusteringS2S
+Evaluating angle$voyage on ArguAna
+Evaluating angle$voyage on SciFact
+Evaluating angle$voyage on STSBenchmark
+Evaluating angle$voyage on Banking77Classification
+Evaluating angle$voyage on STS22
+Evaluating angle$voyage on STS17
+Evaluating angle$voyage on AmazonCounterfactualClassification
+Evaluating angle$voyage on SICK-R
+Evaluating angle$voyage on TwitterSemEval2015
+Evaluating angle$voyage on STS16
+Evaluating angle$voyage on STS12
+Evaluating angle$voyage on STS14
+Evaluating angle$voyage on EmotionClassification
+Evaluating angle$voyage on AskUbuntuDupQuestions
+Evaluating angle$voyage on RedditClustering
+Evaluating angle$voyage on STS13
+Converting results to csv for angle$voyage
+Finished evaluating angle$voyage for all tasks
+
+
+Starting evaluation for cohere$gist
+Evaluating cohere$gist on STS15
+Evaluating cohere$gist on ArxivClusteringS2S
+Evaluating cohere$gist on ArguAna
+Evaluating cohere$gist on SciFact
+Evaluating cohere$gist on STSBenchmark
+Evaluating cohere$gist on Banking77Classification
+Evaluating cohere$gist on STS22
+Evaluating cohere$gist on STS17
+Evaluating cohere$gist on AmazonCounterfactualClassification
+Evaluating cohere$gist on SICK-R
+Evaluating cohere$gist on TwitterSemEval2015
+Evaluating cohere$gist on STS16
+Evaluating cohere$gist on STS12
+Evaluating cohere$gist on STS14
+Evaluating cohere$gist on EmotionClassification
+Evaluating cohere$gist on AskUbuntuDupQuestions
+Evaluating cohere$gist on RedditClustering
+Evaluating cohere$gist on STS13
+Converting results to csv for cohere$gist
+Finished evaluating cohere$gist for all tasks
+
+
+Starting evaluation for cohere$llmrails
+Evaluating cohere$llmrails on STS15
+Evaluating cohere$llmrails on ArxivClusteringS2S
+Evaluating cohere$llmrails on ArguAna
+Evaluating cohere$llmrails on SciFact
+Evaluating cohere$llmrails on STSBenchmark
+Evaluating cohere$llmrails on Banking77Classification
+Evaluating cohere$llmrails on STS22
+Evaluating cohere$llmrails on STS17
+Evaluating cohere$llmrails on AmazonCounterfactualClassification
+Evaluating cohere$llmrails on SICK-R
+Evaluating cohere$llmrails on TwitterSemEval2015
+Evaluating cohere$llmrails on STS16
+Evaluating cohere$llmrails on STS12
+Evaluating cohere$llmrails on STS14
+Evaluating cohere$llmrails on EmotionClassification
+Evaluating cohere$llmrails on AskUbuntuDupQuestions
+Evaluating cohere$llmrails on RedditClustering
+Evaluating cohere$llmrails on STS13
+Converting results to csv for cohere$llmrails
+Finished evaluating cohere$llmrails for all tasks
+
+
+Starting evaluation for cohere$voyage
+Evaluating cohere$voyage on STS15
+Evaluating cohere$voyage on ArxivClusteringS2S
+Evaluating cohere$voyage on ArguAna
+Evaluating cohere$voyage on SciFact
+Evaluating cohere$voyage on STSBenchmark
+Evaluating cohere$voyage on Banking77Classification
+Evaluating cohere$voyage on STS22
+Evaluating cohere$voyage on STS17
+Evaluating cohere$voyage on AmazonCounterfactualClassification
+Evaluating cohere$voyage on SICK-R
+Evaluating cohere$voyage on TwitterSemEval2015
+Evaluating cohere$voyage on STS16
+Evaluating cohere$voyage on STS12
+Evaluating cohere$voyage on STS14
+Evaluating cohere$voyage on EmotionClassification
+Evaluating cohere$voyage on AskUbuntuDupQuestions
+Evaluating cohere$voyage on RedditClustering
+Evaluating cohere$voyage on STS13
+Converting results to csv for cohere$voyage
+Finished evaluating cohere$voyage for all tasks
+
+
+Starting evaluation for gist$llmrails
+Evaluating gist$llmrails on STS15
+Evaluating gist$llmrails on ArxivClusteringS2S
+Evaluating gist$llmrails on ArguAna
+Evaluating gist$llmrails on SciFact
+Evaluating gist$llmrails on STSBenchmark
+Evaluating gist$llmrails on Banking77Classification
+Evaluating gist$llmrails on STS22
+Evaluating gist$llmrails on STS17
+Evaluating gist$llmrails on AmazonCounterfactualClassification
+Evaluating gist$llmrails on SICK-R
+Evaluating gist$llmrails on TwitterSemEval2015
+Evaluating gist$llmrails on STS16
+Evaluating gist$llmrails on STS12
+Evaluating gist$llmrails on STS14
+Evaluating gist$llmrails on EmotionClassification
+Evaluating gist$llmrails on AskUbuntuDupQuestions
+Evaluating gist$llmrails on RedditClustering
+Evaluating gist$llmrails on STS13
+Converting results to csv for gist$llmrails
+Finished evaluating gist$llmrails for all tasks
+
+
+Starting evaluation for gist$voyage
+Evaluating gist$voyage on STS15
+Evaluating gist$voyage on ArxivClusteringS2S
+Evaluating gist$voyage on ArguAna
+Evaluating gist$voyage on SciFact
+Evaluating gist$voyage on STSBenchmark
+Evaluating gist$voyage on Banking77Classification
+Evaluating gist$voyage on STS22
+Evaluating gist$voyage on STS17
+Evaluating gist$voyage on AmazonCounterfactualClassification
+Evaluating gist$voyage on SICK-R
+Evaluating gist$voyage on TwitterSemEval2015
+Evaluating gist$voyage on STS16
+Evaluating gist$voyage on STS12
+Evaluating gist$voyage on STS14
+Evaluating gist$voyage on EmotionClassification
+Evaluating gist$voyage on AskUbuntuDupQuestions
+Evaluating gist$voyage on RedditClustering
+Evaluating gist$voyage on STS13
+Converting results to csv for gist$voyage
+Finished evaluating gist$voyage for all tasks
+
+
+Starting evaluation for llmrails$voyage
+Evaluating llmrails$voyage on STS15
+Evaluating llmrails$voyage on ArxivClusteringS2S
+Evaluating llmrails$voyage on ArguAna
+Evaluating llmrails$voyage on SciFact
+Evaluating llmrails$voyage on STSBenchmark
+Evaluating llmrails$voyage on Banking77Classification
+Evaluating llmrails$voyage on STS22
+Evaluating llmrails$voyage on STS17
+Evaluating llmrails$voyage on AmazonCounterfactualClassification
+Evaluating llmrails$voyage on SICK-R
+Evaluating llmrails$voyage on TwitterSemEval2015
+Evaluating llmrails$voyage on STS16
+Evaluating llmrails$voyage on STS12
+Evaluating llmrails$voyage on STS14
+Evaluating llmrails$voyage on EmotionClassification
+Evaluating llmrails$voyage on AskUbuntuDupQuestions
+Evaluating llmrails$voyage on RedditClustering
+Evaluating llmrails$voyage on STS13
+Converting results to csv for llmrails$voyage
+Finished evaluating llmrails$voyage for all tasks
+
+
+Starting evaluation for angle$cohere$gist
+Evaluating angle$cohere$gist on STS15
+Evaluating angle$cohere$gist on ArxivClusteringS2S
+Evaluating angle$cohere$gist on ArguAna
+Evaluating angle$cohere$gist on SciFact
+Evaluating angle$cohere$gist on STSBenchmark
+Evaluating angle$cohere$gist on Banking77Classification
+Evaluating angle$cohere$gist on STS22
+Evaluating angle$cohere$gist on STS17
+Evaluating angle$cohere$gist on AmazonCounterfactualClassification
+Evaluating angle$cohere$gist on SICK-R
+Evaluating angle$cohere$gist on TwitterSemEval2015
+Evaluating angle$cohere$gist on STS16
+Evaluating angle$cohere$gist on STS12
+Evaluating angle$cohere$gist on STS14
+Evaluating angle$cohere$gist on EmotionClassification
+Evaluating angle$cohere$gist on AskUbuntuDupQuestions
+Evaluating angle$cohere$gist on RedditClustering
+Evaluating angle$cohere$gist on STS13
+Converting results to csv for angle$cohere$gist
+Finished evaluating angle$cohere$gist for all tasks
+
+
+Starting evaluation for angle$cohere$llmrails
+Evaluating angle$cohere$llmrails on STS15
+Evaluating angle$cohere$llmrails on ArxivClusteringS2S
+Evaluating angle$cohere$llmrails on ArguAna
+Evaluating angle$cohere$llmrails on SciFact
+Evaluating angle$cohere$llmrails on STSBenchmark
+Evaluating angle$cohere$llmrails on Banking77Classification
+Evaluating angle$cohere$llmrails on STS22
+Evaluating angle$cohere$llmrails on STS17
+Evaluating angle$cohere$llmrails on AmazonCounterfactualClassification
+Evaluating angle$cohere$llmrails on SICK-R
+Evaluating angle$cohere$llmrails on TwitterSemEval2015
+Evaluating angle$cohere$llmrails on STS16
+Evaluating angle$cohere$llmrails on STS12
+Evaluating angle$cohere$llmrails on STS14
+Evaluating angle$cohere$llmrails on EmotionClassification
+Evaluating angle$cohere$llmrails on AskUbuntuDupQuestions
+Evaluating angle$cohere$llmrails on RedditClustering
+Evaluating angle$cohere$llmrails on STS13
+Converting results to csv for angle$cohere$llmrails
+Finished evaluating angle$cohere$llmrails for all tasks
+
+
+Starting evaluation for angle$cohere$voyage
+Evaluating angle$cohere$voyage on STS15
+Evaluating angle$cohere$voyage on ArxivClusteringS2S
+Evaluating angle$cohere$voyage on ArguAna
+Evaluating angle$cohere$voyage on SciFact
+Evaluating angle$cohere$voyage on STSBenchmark
+Evaluating angle$cohere$voyage on Banking77Classification
+Evaluating angle$cohere$voyage on STS22
+Evaluating angle$cohere$voyage on STS17
+Evaluating angle$cohere$voyage on AmazonCounterfactualClassification
+Evaluating angle$cohere$voyage on SICK-R
+Evaluating angle$cohere$voyage on TwitterSemEval2015
+Evaluating angle$cohere$voyage on STS16
+Evaluating angle$cohere$voyage on STS12
+Evaluating angle$cohere$voyage on STS14
+Evaluating angle$cohere$voyage on EmotionClassification
+Evaluating angle$cohere$voyage on AskUbuntuDupQuestions
+Evaluating angle$cohere$voyage on RedditClustering
+Evaluating angle$cohere$voyage on STS13
+Converting results to csv for angle$cohere$voyage
+Finished evaluating angle$cohere$voyage for all tasks
+
+
+Starting evaluation for angle$gist$llmrails
+Evaluating angle$gist$llmrails on STS15
+Evaluating angle$gist$llmrails on ArxivClusteringS2S
+Evaluating angle$gist$llmrails on ArguAna
+Evaluating angle$gist$llmrails on SciFact
+Evaluating angle$gist$llmrails on STSBenchmark
+Evaluating angle$gist$llmrails on Banking77Classification
+Evaluating angle$gist$llmrails on STS22
+Evaluating angle$gist$llmrails on STS17
+Evaluating angle$gist$llmrails on AmazonCounterfactualClassification
+Evaluating angle$gist$llmrails on SICK-R
+Evaluating angle$gist$llmrails on TwitterSemEval2015
+Evaluating angle$gist$llmrails on STS16
+Evaluating angle$gist$llmrails on STS12
+Evaluating angle$gist$llmrails on STS14
+Evaluating angle$gist$llmrails on EmotionClassification
+Evaluating angle$gist$llmrails on AskUbuntuDupQuestions
+Evaluating angle$gist$llmrails on RedditClustering
+Evaluating angle$gist$llmrails on STS13
+Converting results to csv for angle$gist$llmrails
+Finished evaluating angle$gist$llmrails for all tasks
+
+
+Starting evaluation for angle$gist$voyage
+Evaluating angle$gist$voyage on STS15
+Evaluating angle$gist$voyage on ArxivClusteringS2S
+Evaluating angle$gist$voyage on ArguAna
+Evaluating angle$gist$voyage on SciFact
+Evaluating angle$gist$voyage on STSBenchmark
+Evaluating angle$gist$voyage on Banking77Classification
+Evaluating angle$gist$voyage on STS22
+Evaluating angle$gist$voyage on STS17
+Evaluating angle$gist$voyage on AmazonCounterfactualClassification
+Evaluating angle$gist$voyage on SICK-R
+Evaluating angle$gist$voyage on TwitterSemEval2015
+Evaluating angle$gist$voyage on STS16
+Evaluating angle$gist$voyage on STS12
+Evaluating angle$gist$voyage on STS14
+Evaluating angle$gist$voyage on EmotionClassification
+Evaluating angle$gist$voyage on AskUbuntuDupQuestions
+Evaluating angle$gist$voyage on RedditClustering
+Evaluating angle$gist$voyage on STS13
+Converting results to csv for angle$gist$voyage
+Finished evaluating angle$gist$voyage for all tasks
+
+
+Starting evaluation for angle$llmrails$voyage
+Evaluating angle$llmrails$voyage on STS15
+Evaluating angle$llmrails$voyage on ArxivClusteringS2S
+Evaluating angle$llmrails$voyage on ArguAna
+Evaluating angle$llmrails$voyage on SciFact
+Evaluating angle$llmrails$voyage on STSBenchmark
+Evaluating angle$llmrails$voyage on Banking77Classification
+Evaluating angle$llmrails$voyage on STS22
+Evaluating angle$llmrails$voyage on STS17
+Evaluating angle$llmrails$voyage on AmazonCounterfactualClassification
+Evaluating angle$llmrails$voyage on SICK-R
+Evaluating angle$llmrails$voyage on TwitterSemEval2015
+Evaluating angle$llmrails$voyage on STS16
+Evaluating angle$llmrails$voyage on STS12
+Evaluating angle$llmrails$voyage on STS14
+Evaluating angle$llmrails$voyage on EmotionClassification
+Evaluating angle$llmrails$voyage on AskUbuntuDupQuestions
+Evaluating angle$llmrails$voyage on RedditClustering
+Evaluating angle$llmrails$voyage on STS13
+Converting results to csv for angle$llmrails$voyage
+Finished evaluating angle$llmrails$voyage for all tasks
+
+
+Starting evaluation for cohere$gist$llmrails
+Evaluating cohere$gist$llmrails on STS15
+Evaluating cohere$gist$llmrails on ArxivClusteringS2S
+Evaluating cohere$gist$llmrails on ArguAna
+Evaluating cohere$gist$llmrails on SciFact
+Evaluating cohere$gist$llmrails on STSBenchmark
+Evaluating cohere$gist$llmrails on Banking77Classification
+Evaluating cohere$gist$llmrails on STS22
+Evaluating cohere$gist$llmrails on STS17
+Evaluating cohere$gist$llmrails on AmazonCounterfactualClassification
+Evaluating cohere$gist$llmrails on SICK-R
+Evaluating cohere$gist$llmrails on TwitterSemEval2015
+Evaluating cohere$gist$llmrails on STS16
+Evaluating cohere$gist$llmrails on STS12
+Evaluating cohere$gist$llmrails on STS14
+Evaluating cohere$gist$llmrails on EmotionClassification
+Evaluating cohere$gist$llmrails on AskUbuntuDupQuestions
+Evaluating cohere$gist$llmrails on RedditClustering
+Evaluating cohere$gist$llmrails on STS13
+Converting results to csv for cohere$gist$llmrails
+Finished evaluating cohere$gist$llmrails for all tasks
+
+
+Starting evaluation for cohere$gist$voyage
+Evaluating cohere$gist$voyage on STS15
+Evaluating cohere$gist$voyage on ArxivClusteringS2S
+Evaluating cohere$gist$voyage on ArguAna
+Evaluating cohere$gist$voyage on SciFact
+Evaluating cohere$gist$voyage on STSBenchmark
+Evaluating cohere$gist$voyage on Banking77Classification
+Evaluating cohere$gist$voyage on STS22
+Evaluating cohere$gist$voyage on STS17
+Evaluating cohere$gist$voyage on AmazonCounterfactualClassification
+Evaluating cohere$gist$voyage on SICK-R
+Evaluating cohere$gist$voyage on TwitterSemEval2015
+Evaluating cohere$gist$voyage on STS16
+Evaluating cohere$gist$voyage on STS12
+Evaluating cohere$gist$voyage on STS14
+Evaluating cohere$gist$voyage on EmotionClassification
+Evaluating cohere$gist$voyage on AskUbuntuDupQuestions
+Evaluating cohere$gist$voyage on RedditClustering
+Evaluating cohere$gist$voyage on STS13
+Converting results to csv for cohere$gist$voyage
+Finished evaluating cohere$gist$voyage for all tasks
+
+
+Starting evaluation for cohere$llmrails$voyage
+Evaluating cohere$llmrails$voyage on STS15
+Evaluating cohere$llmrails$voyage on ArxivClusteringS2S
+Evaluating cohere$llmrails$voyage on ArguAna
+Evaluating cohere$llmrails$voyage on SciFact
+Evaluating cohere$llmrails$voyage on STSBenchmark
+Evaluating cohere$llmrails$voyage on Banking77Classification
+Evaluating cohere$llmrails$voyage on STS22
+Evaluating cohere$llmrails$voyage on STS17
+Evaluating cohere$llmrails$voyage on AmazonCounterfactualClassification
+Evaluating cohere$llmrails$voyage on SICK-R
+Evaluating cohere$llmrails$voyage on TwitterSemEval2015
+Evaluating cohere$llmrails$voyage on STS16
+Evaluating cohere$llmrails$voyage on STS12
+Evaluating cohere$llmrails$voyage on STS14
+Evaluating cohere$llmrails$voyage on EmotionClassification
+Evaluating cohere$llmrails$voyage on AskUbuntuDupQuestions
+Evaluating cohere$llmrails$voyage on RedditClustering
+Evaluating cohere$llmrails$voyage on STS13
+Converting results to csv for cohere$llmrails$voyage
+Finished evaluating cohere$llmrails$voyage for all tasks
+
+
+Starting evaluation for gist$llmrails$voyage
+Evaluating gist$llmrails$voyage on STS15
+Evaluating gist$llmrails$voyage on ArxivClusteringS2S
+Evaluating gist$llmrails$voyage on ArguAna
+Evaluating gist$llmrails$voyage on SciFact
+Evaluating gist$llmrails$voyage on STSBenchmark
+Evaluating gist$llmrails$voyage on Banking77Classification
+Evaluating gist$llmrails$voyage on STS22
+Evaluating gist$llmrails$voyage on STS17
+Evaluating gist$llmrails$voyage on AmazonCounterfactualClassification
+Evaluating gist$llmrails$voyage on SICK-R
+Evaluating gist$llmrails$voyage on TwitterSemEval2015
+Evaluating gist$llmrails$voyage on STS16
+Evaluating gist$llmrails$voyage on STS12
+Evaluating gist$llmrails$voyage on STS14
+Evaluating gist$llmrails$voyage on EmotionClassification
+Evaluating gist$llmrails$voyage on AskUbuntuDupQuestions
+Evaluating gist$llmrails$voyage on RedditClustering
+Evaluating gist$llmrails$voyage on STS13
+Converting results to csv for gist$llmrails$voyage
+Finished evaluating gist$llmrails$voyage for all tasks
+
+
+Starting evaluation for angle$cohere$gist$llmrails
+Evaluating angle$cohere$gist$llmrails on STS15
+Evaluating angle$cohere$gist$llmrails on ArxivClusteringS2S
+Evaluating angle$cohere$gist$llmrails on ArguAna
+Evaluating angle$cohere$gist$llmrails on SciFact
+Evaluating angle$cohere$gist$llmrails on STSBenchmark
+Evaluating angle$cohere$gist$llmrails on Banking77Classification
+Evaluating angle$cohere$gist$llmrails on STS22
+Evaluating angle$cohere$gist$llmrails on STS17
+Evaluating angle$cohere$gist$llmrails on AmazonCounterfactualClassification
+Evaluating angle$cohere$gist$llmrails on SICK-R
+Evaluating angle$cohere$gist$llmrails on TwitterSemEval2015
+Evaluating angle$cohere$gist$llmrails on STS16
+Evaluating angle$cohere$gist$llmrails on STS12
+Evaluating angle$cohere$gist$llmrails on STS14
+Evaluating angle$cohere$gist$llmrails on EmotionClassification
+Evaluating angle$cohere$gist$llmrails on AskUbuntuDupQuestions
+Evaluating angle$cohere$gist$llmrails on RedditClustering
+Evaluating angle$cohere$gist$llmrails on STS13
+Converting results to csv for angle$cohere$gist$llmrails
+Finished evaluating angle$cohere$gist$llmrails for all tasks
+
+
+Starting evaluation for angle$cohere$gist$voyage
+Evaluating angle$cohere$gist$voyage on STS15
+Evaluating angle$cohere$gist$voyage on ArxivClusteringS2S
+Evaluating angle$cohere$gist$voyage on ArguAna
+Evaluating angle$cohere$gist$voyage on SciFact
+Evaluating angle$cohere$gist$voyage on STSBenchmark
+Evaluating angle$cohere$gist$voyage on Banking77Classification
+Evaluating angle$cohere$gist$voyage on STS22
+Evaluating angle$cohere$gist$voyage on STS17
+Evaluating angle$cohere$gist$voyage on AmazonCounterfactualClassification
+Evaluating angle$cohere$gist$voyage on SICK-R
+Evaluating angle$cohere$gist$voyage on TwitterSemEval2015
+Evaluating angle$cohere$gist$voyage on STS16
+Evaluating angle$cohere$gist$voyage on STS12
+Evaluating angle$cohere$gist$voyage on STS14
+Evaluating angle$cohere$gist$voyage on EmotionClassification
+Evaluating angle$cohere$gist$voyage on AskUbuntuDupQuestions
+Evaluating angle$cohere$gist$voyage on RedditClustering
+Evaluating angle$cohere$gist$voyage on STS13
+Converting results to csv for angle$cohere$gist$voyage
+Finished evaluating angle$cohere$gist$voyage for all tasks
+
+
+Starting evaluation for angle$cohere$llmrails$voyage
+Evaluating angle$cohere$llmrails$voyage on STS15
+Evaluating angle$cohere$llmrails$voyage on ArxivClusteringS2S
+Evaluating angle$cohere$llmrails$voyage on ArguAna
+Evaluating angle$cohere$llmrails$voyage on SciFact
+Evaluating angle$cohere$llmrails$voyage on STSBenchmark
+Evaluating angle$cohere$llmrails$voyage on Banking77Classification
+Evaluating angle$cohere$llmrails$voyage on STS22
+Evaluating angle$cohere$llmrails$voyage on STS17
+Evaluating angle$cohere$llmrails$voyage on AmazonCounterfactualClassification
+Evaluating angle$cohere$llmrails$voyage on SICK-R
+Evaluating angle$cohere$llmrails$voyage on TwitterSemEval2015
+Evaluating angle$cohere$llmrails$voyage on STS16
+Evaluating angle$cohere$llmrails$voyage on STS12
+Evaluating angle$cohere$llmrails$voyage on STS14
+Evaluating angle$cohere$llmrails$voyage on EmotionClassification
+Evaluating angle$cohere$llmrails$voyage on AskUbuntuDupQuestions
+Evaluating angle$cohere$llmrails$voyage on RedditClustering
+Evaluating angle$cohere$llmrails$voyage on STS13
+Converting results to csv for angle$cohere$llmrails$voyage
+Finished evaluating angle$cohere$llmrails$voyage for all tasks
+
+
+Starting evaluation for angle$gist$llmrails$voyage
+Evaluating angle$gist$llmrails$voyage on STS15
+Evaluating angle$gist$llmrails$voyage on ArxivClusteringS2S
+Evaluating angle$gist$llmrails$voyage on ArguAna
+Evaluating angle$gist$llmrails$voyage on SciFact
+Evaluating angle$gist$llmrails$voyage on STSBenchmark
+Evaluating angle$gist$llmrails$voyage on Banking77Classification
+Evaluating angle$gist$llmrails$voyage on STS22
+Evaluating angle$gist$llmrails$voyage on STS17
+Evaluating angle$gist$llmrails$voyage on AmazonCounterfactualClassification
+Evaluating angle$gist$llmrails$voyage on SICK-R
+Evaluating angle$gist$llmrails$voyage on TwitterSemEval2015
+Evaluating angle$gist$llmrails$voyage on STS16
+Evaluating angle$gist$llmrails$voyage on STS12
+Evaluating angle$gist$llmrails$voyage on STS14
+Evaluating angle$gist$llmrails$voyage on EmotionClassification
+Evaluating angle$gist$llmrails$voyage on AskUbuntuDupQuestions
+Evaluating angle$gist$llmrails$voyage on RedditClustering
+Evaluating angle$gist$llmrails$voyage on STS13
+Converting results to csv for angle$gist$llmrails$voyage
+Finished evaluating angle$gist$llmrails$voyage for all tasks
+
+
+Starting evaluation for cohere$gist$llmrails$voyage
+Evaluating cohere$gist$llmrails$voyage on STS15
+Evaluating cohere$gist$llmrails$voyage on ArxivClusteringS2S
+Evaluating cohere$gist$llmrails$voyage on ArguAna
+Evaluating cohere$gist$llmrails$voyage on SciFact
+Evaluating cohere$gist$llmrails$voyage on STSBenchmark
+Evaluating cohere$gist$llmrails$voyage on Banking77Classification
+Evaluating cohere$gist$llmrails$voyage on STS22
+Evaluating cohere$gist$llmrails$voyage on STS17
+Evaluating cohere$gist$llmrails$voyage on AmazonCounterfactualClassification
+Evaluating cohere$gist$llmrails$voyage on SICK-R
+Evaluating cohere$gist$llmrails$voyage on TwitterSemEval2015
+Evaluating cohere$gist$llmrails$voyage on STS16
+Evaluating cohere$gist$llmrails$voyage on STS12
+Evaluating cohere$gist$llmrails$voyage on STS14
+Evaluating cohere$gist$llmrails$voyage on EmotionClassification
+Evaluating cohere$gist$llmrails$voyage on AskUbuntuDupQuestions
+Evaluating cohere$gist$llmrails$voyage on RedditClustering
+Evaluating cohere$gist$llmrails$voyage on STS13
+Converting results to csv for cohere$gist$llmrails$voyage
+Finished evaluating cohere$gist$llmrails$voyage for all tasks
+
+
+Starting evaluation for angle$cohere$gist$llmrails$voyage
+Evaluating angle$cohere$gist$llmrails$voyage on STS15
+Evaluating angle$cohere$gist$llmrails$voyage on ArxivClusteringS2S
+Evaluating angle$cohere$gist$llmrails$voyage on ArguAna
+Evaluating angle$cohere$gist$llmrails$voyage on SciFact
+Evaluating angle$cohere$gist$llmrails$voyage on STSBenchmark
+Evaluating angle$cohere$gist$llmrails$voyage on Banking77Classification
+Evaluating angle$cohere$gist$llmrails$voyage on STS22
+Evaluating angle$cohere$gist$llmrails$voyage on STS17
+Evaluating angle$cohere$gist$llmrails$voyage on AmazonCounterfactualClassification
+Evaluating angle$cohere$gist$llmrails$voyage on SICK-R
+Evaluating angle$cohere$gist$llmrails$voyage on TwitterSemEval2015
+Evaluating angle$cohere$gist$llmrails$voyage on STS16
+Evaluating angle$cohere$gist$llmrails$voyage on STS12
+Evaluating angle$cohere$gist$llmrails$voyage on STS14
+Evaluating angle$cohere$gist$llmrails$voyage on EmotionClassification
+Evaluating angle$cohere$gist$llmrails$voyage on AskUbuntuDupQuestions
+Evaluating angle$cohere$gist$llmrails$voyage on RedditClustering
+Evaluating angle$cohere$gist$llmrails$voyage on STS13
+Converting results to csv for angle$cohere$gist$llmrails$voyage
+Finished evaluating angle$cohere$gist$llmrails$voyage for all tasks
+
+

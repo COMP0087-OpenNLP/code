@@ -1,0 +1,11 @@
+{
+  "dataset_revision": "f910caf1a6075f7329cdf8c1a6135696f37dbd53",
+  "mteb_dataset_name": "ArxivClusteringS2S",
+  "mteb_version": "1.2.0",
+  "test": {
+    "evaluation_time": 69.56,
+    "main_score": 0.43092891767948427,
+    "v_measure": 0.43092891767948427,
+    "v_measure_std": 0.1421665228479477
+  }
+}
