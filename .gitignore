@@ -1,8 +1,8 @@
 *.DS_Store
 *.pyc
 experimentation/data/*
-.venv
 .venv_blaze
+.venv_*/
 .venv*
 .cache
 experimentation/snlp_test.py
@@ -10,3 +10,12 @@ experimentation/cache/temp/*
 experimentation/logs_pca/*
 experimentation/data_pca/*
 experimentation/data
+pytrec_eval/build/*
+pytrec_eval/pytrec_eval.egg-info/SOURCES.txt
+pytrec_eval/dist/pytrec_eval-0.5-py3.10-linux-x86_64.egg
+pytrec_eval/build/lib.linux-x86_64-3.10/pytrec_eval/__init__.py
+pytrec_eval/build/lib.linux-x86_64-3.10/pytrec_eval_ext.cpython-310-x86_64-linux-gnu.so
+pytrec_eval/build/lib.linux-x86_64-3.10/pytrec_eval/__init__.py
+pytrec_eval/build/temp.linux-x86_64-3.10/src/pytrec_eval.o
+pytrec_eval/dist/pytrec_eval-0.5-py3.10-linux-x86_64.egg
+pytrec_eval/pytrec_eval.egg-info/SOURCES.txt
