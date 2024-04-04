@@ -26,5 +26,5 @@ echo "Installing the mteb package..."
 cd pytrec_eval
 python3 setup.py install
 cd ..
-python3 -m pip install mteb
-# python3 -m pip install mteb[beir] # This fails
+python3 -m pip install mteb==1.1.2
+python3 -m pip install mteb[beir]
