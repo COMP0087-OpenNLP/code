@@ -3,6 +3,7 @@ import numpy as np
 import itertools
 import os
 from tqdm import tqdm
+from mteb import MTEB
 
 from results_to_csv import main as convert_to_csv
 from model_factory import BASIC_MODELS, model_factory
@@ -101,10 +102,7 @@ TASK_LIST = (
     + TASK_LIST_STS
 )
 
-np.random.shuffle(TASK_LIST)
-
 def run_on_tasks(model_name):
-    from mteb import MTEB # Import MTEB here to avoid concurrency warning
     import logging
     logging.basicConfig(level=logging.INFO)
     logger = logging.getLogger("main")
