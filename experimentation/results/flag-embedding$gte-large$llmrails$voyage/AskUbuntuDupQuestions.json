@@ -1,0 +1,10 @@
+{
+  "dataset_revision": "2000358ca161889fa9c082cb41daa8dcfb161a54",
+  "mteb_dataset_name": "AskUbuntuDupQuestions",
+  "mteb_version": "1.1.2",
+  "test": {
+    "evaluation_time": 23.62,
+    "map": 0.6506476287334914,
+    "mrr": 0.7862023479752012
+  }
+}
