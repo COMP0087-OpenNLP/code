@@ -113,12 +113,6 @@ def run_on_tasks(model_name):
             print(f"Skipping {task} as it already exists")
             continue
 
-        # TODO: check the below condition as everything should exist
-        model_names = model_name.split("$")
-        if not np.all([os.path.exists(f"data/{model_name_}/{task}") for model_name_ in model_names]):
-            print(f"Skipping {task} as it doesn't have the required data for model(s) {model_names}")
-            continue
-        
         logger.info(f"Running task: {task}")
         model = model_factory(model_name, task)
         eval_splits = ["dev"] if task == "MSMARCO" else ["test"]

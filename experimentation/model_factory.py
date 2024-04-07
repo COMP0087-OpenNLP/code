@@ -3,6 +3,8 @@ import datasets
 import numpy as np
 import time
 import pickle as pk
+import torch
+import tl_models
 
 BASIC_MODELS = [
     "angle",
@@ -83,7 +85,25 @@ class PCAModel(AbstractModel):
         pca = pk.load(open(f"pca/{self.ndims}/{self.model_name}.pkl", "rb"))
         pca_embs = pca.transform(embeddings)
         return pca_embs
-  
+
+class TransferLearningModel(AbstractModel):
+    def __init__(self, model_name: str, task_name: str):
+        super().__init__(model_name, task_name)
+        self.base_model = model_factory(model_name.replace("-transfer", ""), task_name)
+
+        # transformation model
+        state_dict = torch.load(f"test_results/best_model.pth")
+        self.transformation_model = state_dict["transformation_model"]
+        self.transformation_model.eval()
+    
+    def encode(self, sentences, batch_size=32, **kwargs):
+        with torch.no_grad():
+            base_embeddings = self.base_model.encode(sentences, batch_size)
+            base_embeddings = torch.stack([torch.from_numpy(arr) for arr in base_embeddings]).float()
+            tranformed_embeddings = self.transformation_model(base_embeddings)
+        return tranformed_embeddings
+        
+
 def create_stacked_model(models, task_name):
     if len(models) == 1:
         return LocallyCachedModel(models[0], task_name)
@@ -112,6 +132,9 @@ def model_factory(model_name, task_name, ndims=1024):
     if "-pca" in model_name:
         model_name = model_name.replace("-pca", "")
         return PCAModel(model_name, task_name, ndims)
+    if "-transfer" in model_name:
+        model_name = model_name.replace("-transfer", "")
+        return TransferLearningModel(model_name, task_name)
     elif model_name in BASIC_MODELS:
         return LocallyCachedModel(model_name, task_name)
     elif "$" in model_name:
