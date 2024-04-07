@@ -93,7 +93,7 @@ class TransferLearningModel(AbstractModel):
 
         # transformation model
         state_dict = torch.load(f"test_results/best_model.pth")
-        self.transformation_model = state_dict["transformation_model"]
+        self.transformation_model = state_dict["transformation_model"].to(torch.device("cpu"))
         self.transformation_model.eval()
     
     def encode(self, sentences, batch_size=32, **kwargs):
