@@ -19,3 +19,5 @@ pytrec_eval/build/lib.linux-x86_64-3.10/pytrec_eval/__init__.py
 pytrec_eval/build/temp.linux-x86_64-3.10/src/pytrec_eval.o
 pytrec_eval/dist/pytrec_eval-0.5-py3.10-linux-x86_64.egg
 pytrec_eval/pytrec_eval.egg-info/SOURCES.txt
+experimentation/test_results/best_model.pth
+experimentation/test_results/final_model.pth
