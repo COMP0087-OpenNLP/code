@@ -1,0 +1,17 @@
+{
+  "dataset_revision": "e8379541af4e31359cca9fbcf4b00f2671dba205",
+  "mteb_dataset_name": "AmazonCounterfactualClassification",
+  "mteb_version": "1.1.2",
+  "test": {
+    "en": {
+      "accuracy": 0.7292537313432835,
+      "accuracy_stderr": 0.03247563646318602,
+      "ap": 0.3552674362994875,
+      "ap_stderr": 0.033450029883128854,
+      "f1": 0.6686616649422156,
+      "f1_stderr": 0.031684615454716555,
+      "main_score": 0.7292537313432835
+    },
+    "evaluation_time": 1.0
+  }
+}
