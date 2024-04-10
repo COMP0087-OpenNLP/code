@@ -1,0 +1,13 @@
+{
+  "dataset_revision": "0fd18e25b25c072e09e0d92ab615fda904d66300",
+  "mteb_dataset_name": "Banking77Classification",
+  "mteb_version": "1.1.2",
+  "test": {
+    "accuracy": 0.8518831168831168,
+    "accuracy_stderr": 0.004795532581204368,
+    "evaluation_time": 11.14,
+    "f1": 0.8460523561913899,
+    "f1_stderr": 0.00592594410792711,
+    "main_score": 0.8518831168831168
+  }
+}
