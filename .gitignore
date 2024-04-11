@@ -12,3 +12,4 @@ pytrec_eval/*
 *.sh
 experimentation/test_results/best_model.pth
 experimentation/test_results/final_model.pth
+experimentation/pca/*

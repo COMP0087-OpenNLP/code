@@ -1,0 +1,20 @@
+{
+  "dataset_revision": "6031580fec1f6af667f0bd2da0a551cf4f0b2375",
+  "mteb_dataset_name": "STS14",
+  "mteb_version": "1.1.2",
+  "test": {
+    "cos_sim": {
+      "pearson": 0.8649998365797096,
+      "spearman": 0.8319291285182159
+    },
+    "euclidean": {
+      "pearson": 0.8618223161295878,
+      "spearman": 0.8488209559024613
+    },
+    "evaluation_time": 0.23,
+    "manhattan": {
+      "pearson": 0.8390224887797163,
+      "spearman": 0.832941934048968
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "dataset_revision": "4f58c6b202a23cf9a4da393831edf4f9183cad37",
+  "mteb_dataset_name": "EmotionClassification",
+  "mteb_version": "1.1.2",
+  "test": {
+    "accuracy": 0.49589999999999995,
+    "accuracy_stderr": 0.017649079296099268,
+    "evaluation_time": 0.78,
+    "f1": 0.4351478015979421,
+    "f1_stderr": 0.013325900501996259,
+    "main_score": 0.49589999999999995
+  }
+}

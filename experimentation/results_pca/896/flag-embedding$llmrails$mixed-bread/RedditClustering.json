@@ -1,0 +1,10 @@
+{
+  "dataset_revision": "24640382cdbf8abc73003fb0fa6d111a705499eb",
+  "mteb_dataset_name": "RedditClustering",
+  "mteb_version": "1.1.2",
+  "test": {
+    "evaluation_time": 26.86,
+    "v_measure": 0.5925445747484133,
+    "v_measure_std": 0.04993582712758813
+  }
+}
