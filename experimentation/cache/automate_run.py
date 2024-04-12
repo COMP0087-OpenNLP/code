@@ -3,6 +3,7 @@ import importlib
 import datasetlist
 importlib.reload(datasetlist) # Reload instead of using cached version
 from datasetlist import cache_embeddings
+from datasetlist import cache_STS_embeddings
 import time
 from typing import List, Optional
 
@@ -41,6 +42,11 @@ def run_cohere():
     model = MyModelCohere()
     cache_embeddings(model.model_name, model, batch_size=4000) # 4000 arbitrary, but don't want to go too crazy either ngl
 
+def run_coherev2():
+    from models.mycoherev2 import MyModelCohereV2
+    model = MyModelCohereV2()
+    cache_STS_embeddings(model.model_name, model, batch_size=4000) # 4000 arbitrary, but don't want to go too crazy either ngl
+
 def run_mixed_bread():
     from models.mixedbread import MyModelMixedBread
     model = MyModelMixedBread()
@@ -54,7 +60,8 @@ RUN_MODELS = {
     "openai": run_openai,
     "angle": run_angle,
     "cohere": run_cohere,
-    "mixed-bread": run_mixed_bread
+    "mixed-bread": run_mixed_bread,
+    "cohere-large": run_coherev2
 }
 
 def run_for_model(model_name):

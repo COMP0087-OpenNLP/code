@@ -4,6 +4,21 @@ import os
 from mteb import *
 from tqdm.auto import tqdm
 
+TASK_LIST_STS = [
+    "BIOSSES",
+    "SICK-R",
+    "STS12",
+    "STS13",
+    "STS14",
+    "STS15",
+    "STS16",
+    "STS17",
+    "STS22",
+    "STSBenchmark",
+    "SummEval",
+]
+
+
 # Task list ordered by size:
 TASK_LIST = [
     "MassiveIntentClassification",
@@ -135,6 +150,32 @@ def cache_embeddings(model_name: str, model, batch_size: int = None):
     `model` can be anything that has an `encode` method
     """
     for task in TASK_LIST:
+        download_path = f"../data/sentences/{task}"
+        embedding_path = f"../data/{model_name}/{task}"
+        if not os.path.exists(download_path):
+            print(f"Skipping {task} as it is not downloaded yet...")
+            continue
+        if os.path.exists(embedding_path):
+            print(f"{task} already cached for {model_name}, skipping...")
+            continue
+        print(f"Caching {task}...")
+
+
+        dataset = datasets.load_from_disk(download_path)
+        print("Loaded dataset")
+        
+        embeddings = []
+        for batch in tqdm(batch_generator(dataset, batch_size), desc="Caching embeddings", total = round(len(dataset) / batch_size)):
+            embeddings.extend(encode_wrapper(model, batch["text"]))
+
+        dataset = datasets.Dataset.from_dict({"embeddings": embeddings})
+        dataset.save_to_disk(embedding_path, max_shard_size="75MB")
+
+def cache_STS_embeddings(model_name: str, model, batch_size: int = None):
+    """
+    `model` can be anything that has an `encode` method
+    """
+    for task in TASK_LIST_STS:
         download_path = f"../data/sentences/{task}"
         embedding_path = f"../data/{model_name}/{task}"
         if not os.path.exists(download_path):
