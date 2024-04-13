@@ -15,6 +15,7 @@ BASIC_MODELS = [
     "llmrails",
     "mixed-bread",
     "voyage",
+    "cohere-large"
 ]
 
 class AbstractModel(ABC):
