@@ -3,8 +3,8 @@
   "mteb_dataset_name": "AskUbuntuDupQuestions",
   "mteb_version": "1.1.2",
   "test": {
-    "evaluation_time": 2.29,
-    "map": 0.648825660865995,
-    "mrr": 0.7782900233038736
+    "evaluation_time": 1.43,
+    "map": 0.6323800179159718,
+    "mrr": 0.7686672822406894
   }
 }
