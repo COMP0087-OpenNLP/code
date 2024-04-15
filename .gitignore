@@ -13,3 +13,4 @@ pytrec_eval/*
 experimentation/test_results/best_model.pth
 experimentation/test_results/final_model.pth
 experimentation/pca/*
+experimentation/pca_tl/*

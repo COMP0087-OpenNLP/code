@@ -89,10 +89,10 @@ class PCAModel(AbstractModel):
 class TransferLearningModel(AbstractModel):
     def __init__(self, model_name: str, task_name: str):
         super().__init__(model_name, task_name)
-        self.base_model = model_factory(model_name.replace("-transfer", ""), task_name)
+        self.base_model = model_factory(model_name + "-pca", task_name)
 
         # transformation model
-        state_dict = torch.load(f"test_results/best_model.pth")
+        state_dict = torch.load(f"pca_tl/{model_name}/best_model.pth")
         self.transformation_model = state_dict["transformation_model"].to(torch.device("cpu"))
         self.transformation_model.eval()
     
@@ -103,7 +103,6 @@ class TransferLearningModel(AbstractModel):
             tranformed_embeddings = self.transformation_model(base_embeddings)
         return tranformed_embeddings
         
-
 def create_stacked_model(models, task_name):
     if len(models) == 1:
         return LocallyCachedModel(models[0], task_name)
