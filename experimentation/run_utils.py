@@ -103,21 +103,16 @@ TASK_LIST = (
 )
 
 def run_on_tasks(model_name):
-    import logging
-    logging.basicConfig(level=logging.INFO)
-    logger = logging.getLogger("main")
-
     print(f"Evaluating the model {model_name}...")
     for task in TASK_LIST:
+        # skip if task has already been evaluated
         if os.path.exists(f"results/{model_name}/{task}.json"):
             print(f"Skipping {task} as it already exists")
             continue
 
-        logger.info(f"Running task: {task}")
         model = model_factory(model_name, task)
-        eval_splits = ["dev"] if task == "MSMARCO" else ["test"]
         evaluation = MTEB(tasks=[task], task_langs=["en"])  # Remove "en" for running all languages
-        evaluation.run(model, output_folder=f"results/{model_name}", eval_splits=eval_splits)
+        evaluation.run(model, output_folder=f"results/{model_name}", eval_splits=["test"]) # evaluating only on test set
 
     if os.path.exists(f"results/{model_name}"):
         print("Converting the results to a CSV file...")
