@@ -2,7 +2,7 @@
 
 COMP0087: Statistical Natural Language Processing - OpenNLP
 
-Achieved 83%
+**Achieved 83%**
 
 ## Cloning the Repository
 
